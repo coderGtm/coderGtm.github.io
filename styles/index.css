@@ -1,0 +1,20 @@
+html {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../assets/images/bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+body {
+    background: transparent;
+}
+.navbar a{
+    color: black;
+}
+.bi {
+    color: white;
+}
+.bi:hover {
+    color: black;
+    transition: .3s;
+}
