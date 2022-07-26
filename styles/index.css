@@ -18,13 +18,17 @@ body {
     color: rgb(144, 149, 149);
     font-style: italic;
 }
-.bi {
+#scrollDownBtn {
     color: white;
 }
-.bi:hover {
+#scrollDownBtn:hover {
     color: black;
     transition: .3s;
 }
 #profilePic {
     
+}
+.card img {
+    width: 100%;
+    height: auto;
 }
