@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Test Post"
+date:   2022-07-28 22:16:11 +0530
+---
+
+# Welcome
+
+**Hello world**, this is my first Jekyll blog post.
+
+![An image](/blogs/assets/bg.jpeg)
+
+I hope you like it!
