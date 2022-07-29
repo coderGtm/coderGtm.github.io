@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: cornsilk;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+    margin-top: 0;
+    font-family: 'Baloo 2', cursive;
+}
+#blogListParent {
+    margin: 5vw;
+}
+.blogPost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid black;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 5vh;
+    cursor: pointer;
+}
+.blogPost img {
+    max-width: 100%;
+}
+.blogPost .blogDesc  {
+    float: right;
+    margin: 2vw;
+}
+.blogDesc .blogTitle {
+    font-size: 5vh;
+    font-family: 'Roboto', sans-serif;
+}
+.blogDesc .blogContent {
+    font-size: 3vh;
+    font-family: 'Ubuntu', sans-serif;
+}
