@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Test Post 2"
+date:   2022-07-28 22:16:11 +0530
+permalink: /test-post-2
+---
+
+# Welcome
+
+**Hello world**, this is my second Jekyll blog post.
+
+![An image](assets/bg.jpeg)
+
+I hope you like it!
