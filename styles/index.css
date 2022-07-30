@@ -1,15 +1,23 @@
 html {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../assets/images/bg.jpeg); 
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
+  margin: 0;
+}
+#bgImage {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../assets/images/bg.jpeg); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  z-index: -10;
 }
 body {
-    background: transparent;
     overflow-x: hidden;
 }
 .navbar a{
