@@ -21,4 +21,6 @@ function convertToTravelWorld() {
     },200);
 }
 
+
+AOS.init();
 setTimeout(convertToTravelWorld,3000);
