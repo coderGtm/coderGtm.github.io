@@ -40,7 +40,9 @@ body {
     transition: .3s;
 }
 #profilePic {
-    border-radius: 30% 70% 60% 30% / 30% 30% 70% 50%;
+    height: 40vh;
+    width: auto;
+    border-radius: 30% 50% 60% 30% / 30% 30% 50% 50%;
 }
 .card img {
     max-width: 100%;
