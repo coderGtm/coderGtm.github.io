@@ -18,6 +18,7 @@ html {
   z-index: -10;
 }
 body {
+    width: 100vw;
     overflow-x: hidden;
 }
 .navbar a{
