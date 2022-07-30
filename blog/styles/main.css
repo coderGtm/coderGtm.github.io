@@ -20,7 +20,6 @@ header a {
 }
 .blogPost {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     border: 1px solid black;
     width: 100%;
@@ -30,7 +29,7 @@ header a {
     cursor: pointer;
 }
 .blogPost img {
-    max-width: 100%;
+    max-width: 30%;
 }
 .blogPost .blogDesc  {
     float: right;
@@ -44,3 +43,13 @@ header a {
     font-size: 3vh;
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+@media screen and (max-width: 416px) {
+    .blogPost {
+         flex-wrap: wrap;
+     }
+     .blogPost img {
+        max-width: 100%;
+     }
+ }
