@@ -10,6 +10,7 @@ html {
 }
 body {
     background: transparent;
+    overflow-x: hidden;
 }
 .navbar a{
     color: black;
