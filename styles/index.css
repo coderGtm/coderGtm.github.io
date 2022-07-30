@@ -20,7 +20,9 @@ html {
   z-index: -10;
 }
 body {
-    
+    width: 100vw !important;
+    overflow-x: hidden !important;
+    position: relative;
 }
 .navbar a{
     color: black;
