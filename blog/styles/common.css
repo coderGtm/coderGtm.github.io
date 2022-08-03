@@ -17,6 +17,7 @@ header a, footer a {
 }
 footer {
     text-align: center;
+    margin-top: 5vh;
 }
 #github {
     font-size: 3vh;

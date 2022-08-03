@@ -21,15 +21,28 @@
 
         <div id="content">
             <p>I've always admired Android in the way of storing persistent data. If you are famaliar with Android Development, you'd know about Shared Preferences. If that's new to you, it is basically a storage utility that Android provides using which you can store data in Key-value form. Shared Preferences are suitable in different situations. For example, when the user’s settings need to be saved or to store data that can be used in different activities within the app.</p>
-            <p>But...we don't get that awesome feature outside the Android environment. Do we? So I decided to create a lightweight storage utility that provides such behavior and can be used on any platform. And voila...WaterBase was born ;)</p>
+            <p>But...we don't get that awesome feature outside the Android environment. Do we? So I decided to create a lightweight storage utility that provides such behavior and can be used on any platform. And voila...<a href="https://github.com/coderGtm/WaterBase">WaterBase</a> was born ;)</p>
             <img src="../../assets/images/WaterBase.jpeg" alt="WaterBase">
             <h4>So first thing's first. Why the name ?</h4>
             <p>Ok...so here's my explanation. As we all know that 🔥FireBase is a  database that is in cloud and can be accessed from anywhere. And so WaterBase is a database on your hard disk that can be accessed from anywhere...just like <i>water</i>🌊...simple and lightweight🪶.</p>
+            <div style="width:100%;height:0;padding-bottom:57%;position:relative;margin: 0 auto;"><iframe src="https://giphy.com/embed/62PP2yEIAZF6g" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/swag-80s-sunglasses-62PP2yEIAZF6g">via GIPHY</a></p>
             <h4>How it's used ?</h4>
             <p>As promised, in the easisest way...<br>WaterBase is currently available in C++ and Python</p>
             <quote>Talk is cheap. Show me the code.</quote>
             <p>Ok then...here's the Python version</p>
             <img src="../../assets/images/waterbase-py.svg" alt="">
+            <p>And if you rather prefer C++, you're covered:</p>
+            <img src="../../assets/images/waterbase-cpp.png" alt="">
+            <h4>Explanation:</h4>
+            <p>First we create an instance of the class WaterBase. We provide the name of the WaterBase database to use as parameter. If no database exists by that name, a new one is created.</p>
+            <p>Now let's put some values in our database. WaterBase supports three types of values: Boolean, Integer and String. To save values, use the <br><code>db.Save*(key, value)</code> function.</p>
+            <img src="../../assets/images/waterbase-save.jpg" alt="">
+            <p>Now if you want to retreive these values, use <br><code>db.Load*(key, default_value)</code> function.</p>
+            <img src="../../assets/images/waterbase-load.jpg" alt="">
+            <p>That's all...This is the simplest databse you could ever need. You can find the GitHub repository <a href="https://github.com/coderGtm/WaterBase">here.</a></p>
+            <p>And one last thing...if you've read till here and are still unsure whether should you use WaterBase or not in a project, then <i><strong>please, please, please</strong></i> drop a comment on the repository's <a href="https://github.com/coderGtm/WaterBase/issues">issue page</a>, describing why you don't wanna use it. It can help the community to make WaterBase a better product, more suited for you.</p>
+            <div style="width:100%;height:0;padding-bottom:43%;position:relative;"><iframe src="https://giphy.com/embed/zDpYQooxkwXkAWMxRK" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/thefastsaga-fast-and-furious-saga-6-zDpYQooxkwXkAWMxRK">via GIPHY</a></p>
+            <p><i>Goodbye!!</i></p>
         </div>
     </div>
 
