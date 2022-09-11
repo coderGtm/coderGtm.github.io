@@ -23,4 +23,3 @@ function convertToTravelWorld() {
 
 
 AOS.init();
-setTimeout(convertToTravelWorld,3000);
