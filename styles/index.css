@@ -3,6 +3,15 @@ html {
     width: 100vw !important;
     overflow-x: hidden !important;
 }
+#kidding {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 100;
+}
 #bgImage {
   position: fixed; 
   top: 0; 

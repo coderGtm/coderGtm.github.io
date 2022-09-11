@@ -11,6 +11,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+  <div id="kidding" class="text-center">
+    <h1 class="kidding-1 mx-auto pt-5 text-center">I don't like coding.😫</h1>
+    <button class="kidding-1 mt-5" onclick="[...document.getElementsByClassName('kidding-1')].forEach(function(node){node.style.display='none';});[...document.getElementsByClassName('kidding-2')].forEach(function(node){node.classList.remove('d-none');});">Get Lost</button>
+    <h2 class="kidding-2 mx-auto pt-5 d-none">Just Kidding...😅</h2>
+    <h1 class="kidding-2 mx-auto pt-5 text-center d-none">I ❤ coding.</h1>
+    <h3 class="kidding-2 pt-3 d-none">Was passing time till the website loads🔄</h3>
+    <button class="kidding-2 d-none" onclick="document.getElementById('kidding').style.display='none';location.href = '#';location.href = '#header_navbar';setTimeout(convertToTravelWorld,3000);">x</button>
+  </div>
+  <script>
+
+  </script>
   <div id="bgImage"></div>
     <nav id="header_navbar" class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
