@@ -1,6 +1,5 @@
 html, body {
     margin: 0;
-    overflow: hidden;
 }
 .navbar {
     background-color: #3f7be0;
@@ -27,6 +26,7 @@ footer {
     background-color: #26477d;
 }
 #launchPad {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
