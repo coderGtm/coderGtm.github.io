@@ -4,6 +4,7 @@ import Projects from "../components/home/projects.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
+import photo from "../assets/images/about/photo.png";
 ---
 
 <Layout title="Gautam Mehta">
@@ -55,9 +56,12 @@ import Layout from "../layouts/main.astro";
           </div>
           <div class="relative z-30 px-10">
             <img
-              src="/assets/images/photo.png"
+              src={photo.src}
+              width={photo.width}
+              height={photo.height}
               loading="eager"
               decoding="auto"
+              alt="Gautam Mehta"
               class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
             />
           </div>

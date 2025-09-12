@@ -1,12 +1,14 @@
 ---
 const { institution, degree, year, details, logo } = Astro.props;
+// Support either a string path or an imported image metadata object
+const logoMeta = typeof logo === 'string' ? { src: logo, width: 32, height: 32 } : logo;
 ---
 
 <div class="relative flex flex-col justify-start pl-12">
   <div
 	class="absolute top-0 left-0 z-40 flex items-center justify-center -translate-x-1/2 bg-white border rounded-full dark:bg-neutral-950 w-14 h-14 border-neutral-300 dark:border-neutral-700"
   >
-	<img src={logo} alt={institution} class="w-8 h-8" />
+  <img src={logoMeta.src} width={logoMeta.width} height={logoMeta.height} alt={institution} class="w-8 h-8" />
   </div>
 
   <p

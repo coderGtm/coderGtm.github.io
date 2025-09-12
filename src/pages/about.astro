@@ -1,6 +1,7 @@
 ---
-import experiences from "../collections/experiences.json";
-import education from "../collections/education.json";
+import experiences from "../collections/experiences.js";
+import education from "../collections/education.js";
+import aboutImage from "../assets/images/about/about.png";
 import AboutExperience from "../components/about-experience.astro";
 import AboutEducation from "../components/about-education.astro";
 import PageHeading from "../components/page-heading.astro";
@@ -14,7 +15,7 @@ import Layout from "../layouts/main.astro";
       description="Hello 👋 I'm a full-stack developer from Vadodara, India. I'm passionate about building new products, learning new technology and exploring the world."
     />
 
-    <img src="/assets/images/about.png" class="relative z-30 w-full my-10 rounded-xl" />
+  <img src={aboutImage.src} width={aboutImage.width} height={aboutImage.height} class="relative z-30 w-full my-10 rounded-xl" alt="About" />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p

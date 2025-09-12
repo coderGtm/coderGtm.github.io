@@ -11,7 +11,7 @@ Homescreen Launchers are often those bloated GUI pages where you have to painful
 
 Also, there is an even bigger issue, which most of us don't realize: Distraction
 
-![Phone Bandit](./../../../public/assets/images/posts/phone-bandit.png)
+![Phone Bandit](../../assets/images/posts/phone-bandit.png)
 
 Credits: [nirandfar.com](https://www.nirandfar.com/hack-back-phone-distractions/)
 
@@ -21,7 +21,7 @@ Notifications. It's algorithm selectively pushes notifications on your drawer th
 
 * [ ] What concerns me is the second lesser-known strategy that not only benefits Instagram, but all apps that monetize your attention. And that my dear friends is (lo and behold)..................your phone's in-built Launcher. We often find ourselves checking out our phone when there's nothing to do. Whether you're sitting alone, waiting for your bus, waiting for the next professor to come for the lecture, walking to the canteen, starting some work, going to bed...or just bored, you casually put your hand in the pocket and bring that Yantra (Hindi word for device) out. You unlock it and glance at the apps. You find one cute shiny icon asking you to tap on it. You pity on that icon and fulfill its request. And boom...15-20 minutes of your life wasted. You could have used that time to reflect upon yourself. That is boring but boredom is actually good for us. Social neuroscientists have found that the brain has a default network mode that is on when we're disengaged from doing. Boredom can actually foster creative ideas, refilling your dwindling reservoir, replenishing your work mojo and providing an incubation period for embryonic work ideas to hatch.
 
-![Distraction](./../../../public/assets/images/posts/social-media.png)
+![Distraction](../../assets/images/posts/social-media.png)
 
 Do you know that Smartphone manufactures also have a secondary business model: Pre-installed apps. A [study](https://ieeexplore.ieee.org/abstract/document/9152633) found that pre-installed apps in Android phones are used for data collection, tracking, and monitoring, without the user's knowledge. Apart from this, it also increases the app's popularity as more people have to compulsarily see it on their launchers. Manufacturer's obviouly get paid huge amounts of money for this. The problem that is related in this context is that the user is eventually going to open that app once to see what it is and then the algorithms are always there to make him a repeating user.
 
