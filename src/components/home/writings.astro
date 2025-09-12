@@ -2,7 +2,8 @@
 import Button from "../button.astro";
 import PostsLoop from "../posts-loop.astro";
 
-const feed = "https://feed.miantiao.me/";
+// Point to generated RSS feed (see /src/pages/feed.xml.js)
+const feed = (Astro.site ? new URL('/feed.xml', Astro.site).href : '/feed.xml');
 ---
 
 <section class="max-w-4xl mx-auto px-7 lg:px-0">
@@ -52,6 +53,17 @@ const feed = "https://feed.miantiao.me/";
             >
               Subscribe my blog
             </h2>
+      <a href={feed} aria-label="RSS feed" class="text-neutral-900 hover:text-neutral-600 dark:text-neutral-100 dark:hover:text-neutral-300 transition-colors">
+              <svg
+                class="w-5 h-5"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path d="M6.18 17.82a1.82 1.82 0 1 1 0-3.64 1.82 1.82 0 0 1 0 3.64Zm4.55.55a7.27 7.27 0 0 0-7.27-7.27v-2.73a10 10 0 0 1 10 10h-2.73Zm5.45.09c0-7.34-5.96-13.27-13.27-13.27V2c8.84 0 16 7.16 16 16h-2.73Z" />
+              </svg>
+            </a>
           </div>
           <p class="mt-2 text-sm text-neutral-600 dark:text-neutral-400">
             Get my blog updates via <a
