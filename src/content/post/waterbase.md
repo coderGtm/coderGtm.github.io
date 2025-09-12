@@ -9,7 +9,7 @@ I've always admired Android in the way of storing persistent data. If you are fa
 
 But...we don't get that awesome feature outside the Android environment. Do we? So I decided to create a lightweight storage utility that provides such behavior and can be used on any platform. And voila...[WaterBase](https://github.com/coderGtm/WaterBase) was born ;)
 
-![WaterBase](https://codergtm.github.io/assets/images/WaterBase.jpeg)
+![WaterBase](../../assets/images/posts/waterbase.png)
 
 #### So first thing's first. Why the name ?
 
