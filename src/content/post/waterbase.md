@@ -82,4 +82,4 @@ And one last thing...if you've read till here and are still unsure whether shoul
 
 Goodbye!!
 
-[Gautam Mehta](https://codergtm.github.io/index.html) [@coderGtm](https://github.com/coderGtm)
+coderGtm
