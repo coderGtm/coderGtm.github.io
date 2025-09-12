@@ -1,0 +1,37 @@
+---
+import projects from "../collections/projects.json";
+import Button from "../components/button.astro";
+import PageHeading from "../components/page-heading.astro";
+import Project from "../components/project.astro";
+import Layout from "../layouts/main.astro";
+---
+
+<Layout title="My Projects">
+  <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
+    <PageHeading
+      title="My Projects"
+      description="Here are some of the projects I've built and experimented with. I really enjoy creating new projects and coming up with new ideas. I'm always working on something new, so check back often!"
+    />
+
+    <div
+      class="z-50 grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2"
+    >
+      {
+        projects.map((project) => {
+          return (
+            <Project
+              name={project.name}
+              description={project.description}
+              image={project.image}
+              url={project.url}
+            />
+          )
+        })
+      }
+    </div>
+
+	<div class="flex items-center justify-center w-full py-5">
+    	<Button text="View more on GitHub →" link="https://github.com/coderGtm" />
+  	</div>
+  </section>
+</Layout>

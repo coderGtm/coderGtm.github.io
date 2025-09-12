@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Yantra Launcher",
+		"description": "Best CLI Launcher for Android.",
+		"image": "/assets/images/projects/yantra-launcher.png",
+		"url": "https://github.com/coderGtm/yantra-app-launcher"
+	},
+	{
+		"name": "Shiftlog",
+		"description": "A highly performant and efficient system to create, manage and publish release notes in various formats for your products.",
+		"image": "/assets/images/projects/shiftlog.png",
+		"url": "https://github.com/coderGtm/Shiftlog"
+	},
+	{
+		"name": "DELTA",
+		"description": "Cloud-based Employee Attendance Management for small businesses.",
+		"image": "/assets/images/projects/delta.png",
+		"url": "https://codergtm.github.io/delta"
+	},
+	{
+		"name": "Insight",
+		"description": "A simple GUI Database Inspector written in Python.",
+		"image": "/assets/images/projects/insight.png",
+		"url": "https://github.com/coderGtm/Insight"
+	},
+	{
+		"name": "Talaash",
+		"description": "An Open Source Search Engine created from scratch.",
+		"image": "/assets/images/projects/talaash.png",
+		"url": "https://github.com/coderGtm/Talaash"
+	},
+	{
+		"name": "Big Battery Display",
+		"description": "Shows battery level in big font for those who have problem reading small battery level (10k+ installs)",
+		"image": "/assets/images/projects/big-battery-display.png",
+		"url": "https://play.google.com/store/apps/details?id=com.coderGtm.bigbatterydisplay"
+	}
+]
