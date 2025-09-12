@@ -1,7 +1,7 @@
 ---
 title: Why I built an entire Launcher for Android?
 description: Let's change the definition of Android Launchers...for the greater good!
-dateFormatted: Sep 26, 2022
+date: 2022-09-26
 ---
 ### Let's change the definition of Android Launchers...for the greater good!
 

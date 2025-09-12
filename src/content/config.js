@@ -5,7 +5,8 @@ const postCollection = defineCollection({
 	schema: z.object({
 		title: z.string(),
 		description: z.string(),
-		dateFormatted: z.string(),
+		// Store canonical date as Date object; format at render time
+		date: z.date(),
 	}),
 });
 

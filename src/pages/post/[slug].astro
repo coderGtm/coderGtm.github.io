@@ -14,7 +14,12 @@ const { entry } = Astro.props;
 // Render markdown entry to get the compiled Content component
 const { Content } = await entry.render();
 const frontmatter = entry.data;
+const formattedDate = new Intl.DateTimeFormat("en-US", {
+	month: "short",
+	day: "numeric",
+	year: "numeric",
+}).format(frontmatter.date);
 ---
-<PostLayout frontmatter={frontmatter}>
+<PostLayout frontmatter={{ ...frontmatter, dateFormatted: formattedDate }}>
 	<Content />
 </PostLayout>

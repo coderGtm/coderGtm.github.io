@@ -1,7 +1,7 @@
 ---
 title: The Easiest Database you could ever need!
 description: As a developer, you might have heard of FireBase. But do you know about.....WaterBase ??
-dateFormatted: Aug 2, 2022
+date: 2022-08-02
 ---
 ### As a developer, you might have heard of FireBase. But do you know about.....WaterBase ??
 

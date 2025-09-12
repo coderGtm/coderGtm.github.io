@@ -4,24 +4,22 @@ const allPosts = await getCollection("post");
 
 const { count } = Astro.props;
 
-function parseDate(dateStr) {
-  const [month, day, year] = dateStr.split(" ");
-  return new Date(`${month} ${parseInt(day)}, ${year}`);
-}
+const formatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+});
 
 const sortedPosts = allPosts
-  .map((post) => ({
-    ...post,
-    date: parseDate(post.data.dateFormatted),
-  }))
-  .sort((a, b) => b.date.getTime() - a.date.getTime());
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
 
-const postsLoop = sortedPosts.slice(0, count).map((post) => {
-  return {
-    ...(post.data || {}),
-    link: `/post/${post.slug}`,
-  };
-});
+const postsLoop = sortedPosts.slice(0, count).map((post) => ({
+  title: post.data.title,
+  description: post.data.description,
+  dateISO: post.data.date.toISOString(),
+  dateFormatted: formatter.format(post.data.date),
+  link: `/post/${post.slug}`,
+}));
 ---
 
 {
@@ -85,7 +83,7 @@ const postsLoop = sortedPosts.slice(0, count).map((post) => {
             <span>{post.description}</span>
           </p>
           <div class="mt-2.5 text-xs font-medium text-neutral-800 dark:text-neutral-300">
-            Posted on {post.dateFormatted}
+            <time datetime={post.dateISO}>Posted on {post.dateFormatted}</time>
           </div>
         </div>
       </div>
