@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: Why I built an entire Launcher for Android?
 description: Let's change the definition of Android Launchers...for the greater good!
 dateFormatted: Sep 26, 2022
