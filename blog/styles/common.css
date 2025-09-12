@@ -1,0 +1,66 @@
+body {
+   margin: 0;
+}
+header, footer {
+    background-color: cornsilk;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+header a, footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 4vh;
+    margin-top: 0;
+    font-family: 'Baloo 2', cursive;
+}
+footer {
+    text-align: center;
+    margin-top: 5vh;
+}
+#github {
+    font-size: 3vh;
+    color: darkgray;
+}
+#blogArea {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#content img {
+    display: block;
+    margin: 0 auto;
+}
+#title {
+    font-size: 7vh;
+    font-family: 'Roboto', sans-serif;
+}
+#subtitle {
+    margin-top: 0;
+    font-size: 4vh;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+}
+#timestamp {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: 2px dotted #000;
+    text-decoration: none;
+}
+#content {
+    font-size: 3vh;
+    line-height: 5vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+#content img {
+    max-width: 100%;
+}
+quote {
+    display: block;
+    background-color: aliceblue;
+    width: 80%;
+    padding: 2vh;
+    border-left: 5px solid rgb(43, 128, 224);
+    color: darkslategray;
+    font-style: italic;
+    font-weight: bold;
+}
