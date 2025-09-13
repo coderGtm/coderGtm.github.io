@@ -23,7 +23,7 @@ export default [
     name: 'DELTA',
     description: 'Cloud-based Employee Attendance Management for small businesses.',
     image: delta,
-    url: 'https://codergtm.github.io/delta',
+    url: '/delta',
   },
   {
     name: 'Insight',
