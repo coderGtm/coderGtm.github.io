@@ -1,10 +1,20 @@
 ---
-const { link, text } = Astro.props;
+interface Props {
+  link: string;
+  text: string;
+  variant?: 'solid' | 'outline' | 'ghost';
+  target?: string;
+  rel?: string;
+  class?: string;
+}
+const { link, text, variant = 'solid', target, rel, class: extraClass = '' }: Props = Astro.props;
+
+const base = 'inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out rounded-full';
+const solid = 'border bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900';
+const outline = 'border border-neutral-300 dark:border-neutral-600 text-neutral-700 dark:text-neutral-200 hover:bg-neutral-900 hover:text-white dark:hover:bg-white dark:hover:text-neutral-900';
+const ghost = 'text-neutral-600 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-white';
+const styleMap: Record<string,string> = { solid, outline, ghost };
+const classes = `${base} ${styleMap[variant]} ${extraClass}`.trim();
 ---
 
-<a
-  href={link}
-  class="inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900"
->
-  {text}
-</a>
+<a href={link} class={classes} target={target} rel={rel}>{text}</a>

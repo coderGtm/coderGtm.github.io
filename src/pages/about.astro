@@ -6,6 +6,7 @@ import AboutExperience from "../components/about-experience.astro";
 import AboutEducation from "../components/about-education.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import Button from "../components/button.astro";
 ---
 
 <Layout title="About Me">
@@ -72,6 +73,10 @@ import Layout from "../layouts/main.astro";
 		})
 	  }
 	</div>
+
+    <div class="mb-8">
+      <Button link="/resume.pdf" text="View my Resume" variant="outline" target="_blank" rel="noopener" />
+    </div>
 
     <h2 class="mt-5 mb-2 text-2xl font-bold lg:mt-10 sm:mt-6 dark:text-neutral-200">Let's Connect</h2>
     <p
