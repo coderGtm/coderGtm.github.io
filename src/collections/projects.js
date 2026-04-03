@@ -1,3 +1,4 @@
+import ratelimiter from '../assets/images/projects/ratelimiter.png';
 import yantra from '../assets/images/projects/yantra-launcher.png';
 import shiftlog from '../assets/images/projects/shiftlog.png';
 import delta from '../assets/images/projects/delta.png';
@@ -7,8 +8,14 @@ import bigBattery from '../assets/images/projects/big-battery-display.png';
 
 export default [
   {
+    name: 'Custom Rate Limiter',
+    description: 'A multi-layered, configurable rate limiter built with Spring Boot.',
+    image: ratelimiter,
+    url: 'https://github.com/coderGtm/ratelimiter',
+  },
+  {
     name: 'Yantra Launcher',
-    description: 'Best CLI Launcher for Android.',
+    description: 'A minimal CLI based Android app Launcher with 50k+ users.',
     image: yantra,
     url: 'https://github.com/coderGtm/yantra-app-launcher',
   },
