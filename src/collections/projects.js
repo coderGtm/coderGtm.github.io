@@ -44,11 +44,4 @@ export default [
     image: talaash,
     url: 'https://github.com/coderGtm/Talaash',
   },
-  {
-    name: 'Big Battery Display',
-    description:
-      'Shows battery level in big font for those who have problem reading small battery level (10k+ installs)',
-    image: bigBattery,
-    url: 'https://play.google.com/store/apps/details?id=com.coderGtm.bigbatterydisplay',
-  },
 ];
