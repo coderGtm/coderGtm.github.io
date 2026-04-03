@@ -1,7 +1,13 @@
 [
+  {
+    "name": "Custom Rate Limiter",
+    "description": "A multi-layered, configurable rate limiter built with Spring Boot.",
+    "image": "/assets/images/projects/ratelimiter.png",
+    "url": "https://github.com/coderGtm/ratelimiter",
+  },
 	{
 		"name": "Yantra Launcher",
-		"description": "Best CLI Launcher for Android.",
+		"description": "A minimal CLI based Android app Launcher with 50k+ users.",
 		"image": "/assets/images/projects/yantra-launcher.png",
 		"url": "https://github.com/coderGtm/yantra-app-launcher"
 	},
